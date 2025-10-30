@@ -1,0 +1,332 @@
+[
+  {
+    "id": "news-1",
+    "slug": "ace-cricket-club-wins-regional-championship",
+    "title": "Ace Cricket Club Wins Regional Championship",
+    "category": "Breaking News",
+    "tags": ["championship", "victory", "ahmed khan", "punjab tigers", "regional final"],
+    "date_published": "2025-10-20T00:00:00Z",
+    "author": {
+      "name": "Sports Desk",
+      "role": "Editor"
+    },
+    "excerpt": "In a thrilling final match, Ace Cricket Club secured victory against Punjab Tigers with a spectacular performance by captain Ahmed Khan, who scored an unbeaten century.",
+    "seo_title": "Ace Cricket Club Wins Regional Championship — Ace Cricket Club",
+    "meta_description": "Ace Cricket Club triumphs in regional championship final against Punjab Tigers as captain Ahmed Khan scores magnificent unbeaten century to seal historic victory.",
+    "canonical_url": "https://YOUR_DOMAIN/ace-cricket-club/news/ace-cricket-club-wins-regional-championship",
+    "image": "/assets/news/regional-championship.webp",
+    "image_alt": "Ace Cricket Club team celebrating their regional championship victory with the trophy.",
+    "featured": true,
+    "reading_time_minutes": 2,
+    "word_count": 342,
+    "related_slugs": ["ahmed-khan-captain-of-the-year", "record-partnership-hassan-usman", "pre-season-training-camp-announced"],
+    "content_blocks": [
+      {
+        "type": "p",
+        "text": "In a thrilling final match, Ace Cricket Club secured victory against Punjab Tigers with a spectacular performance by captain Ahmed Khan, who scored an unbeaten century."
+      },
+      {
+        "type": "p",
+        "text": "The regional championship final witnessed an extraordinary display of skill and determination as Ace Cricket Club chased down a target of 287 runs with three overs to spare. Captain Ahmed Khan remained unbeaten on 124 runs off just 98 deliveries, anchoring the innings with masterful strokeplay and strategic partnerships. His knock included 14 boundaries and 5 towering sixes that brought the capacity crowd at the stadium to their feet."
+      },
+      {
+        "type": "blockquote",
+        "text": "This victory belongs to the entire team and our passionate supporters who stood by us throughout the season. We trained hard for this moment, and I'm proud of how everyone executed the game plan under pressure."
+      },
+      {
+        "type": "p",
+        "text": "The match began with Punjab Tigers posting a formidable 286 for 7 in their allotted 50 overs. However, Ace Cricket Club's response was measured and confident from the outset. Opening batsman Hassan Ali provided a solid foundation with 67 runs, while middle-order batsman Usman Shah contributed a crucial 52 runs to keep the momentum going. Ahmed Khan's century proved to be the decisive factor as he guided his team to a memorable six-wicket victory."
+      },
+      {
+        "type": "p",
+        "text": "This championship marks Ace Cricket Club's third regional title and first since 2019. The victory cements the club's position as one of the dominant forces in regional cricket and sets the stage for an exciting upcoming season. Team celebrations continued late into the evening as players, coaching staff, and supporters savored this historic achievement together."
+      }
+    ]
+  },
+  {
+    "id": "news-2",
+    "slug": "new-training-facility-iqbal-stadium",
+    "title": "New Training Facility Opens at Iqbal Stadium",
+    "category": "Facilities",
+    "tags": ["training facility", "iqbal stadium", "infrastructure", "player development", "coaching"],
+    "date_published": "2025-10-22T00:00:00Z",
+    "author": {
+      "name": "Sports Desk",
+      "role": "Editor"
+    },
+    "excerpt": "Ace Cricket Club inaugurates state-of-the-art training facility with modern equipment and coaching staff to enhance player development and performance.",
+    "seo_title": "New Training Facility Opens at Iqbal Stadium — Ace Cricket Club",
+    "meta_description": "Ace Cricket Club unveils cutting-edge training facility at Iqbal Stadium featuring advanced equipment, professional coaching staff, and world-class amenities for players.",
+    "canonical_url": "https://YOUR_DOMAIN/ace-cricket-club/news/new-training-facility-iqbal-stadium",
+    "image": "/assets/news/new-facility.webp",
+    "image_alt": "Modern training facility at Iqbal Stadium with indoor nets and advanced equipment.",
+    "featured": false,
+    "reading_time_minutes": 2,
+    "word_count": 318,
+    "related_slugs": ["pre-season-training-camp-announced", "youth-academy-registration-open", "ace-cricket-club-wins-regional-championship"],
+    "content_blocks": [
+      {
+        "type": "p",
+        "text": "Ace Cricket Club inaugurates state-of-the-art training facility with modern equipment and coaching staff to enhance player development and performance."
+      },
+      {
+        "type": "p",
+        "text": "The newly opened training facility at Iqbal Stadium represents a significant investment in the club's future, spanning over 25,000 square feet of dedicated training space. The facility features six indoor practice nets with advanced ball-tracking technology, a fully equipped gymnasium with strength and conditioning equipment, video analysis rooms, and dedicated spaces for physiotherapy and sports medicine. This comprehensive approach ensures players have access to every resource needed for optimal performance development."
+      },
+      {
+        "type": "blockquote",
+        "text": "This facility will transform how we prepare our players for competition. The integration of technology with traditional coaching methods will give our athletes a significant advantage in their development journey."
+      },
+      {
+        "type": "p",
+        "text": "The training center will be staffed by a team of experienced professionals including certified coaches, fitness trainers, physiotherapists, and sports psychologists. Head Coach Imran Malik emphasized the facility's role in maintaining the club's competitive edge. The center will operate year-round, providing both senior team players and youth academy members access to world-class training resources previously unavailable in the region."
+      },
+      {
+        "type": "p",
+        "text": "Construction of the facility took eighteen months to complete and was designed in consultation with international cricket infrastructure experts. The project includes sustainable features such as rainwater harvesting, solar panels, and energy-efficient lighting systems. Club management expects the facility to serve as a regional hub for cricket excellence, potentially hosting training camps for visiting teams and conducting coaching certification programs in the future."
+      }
+    ]
+  },
+  {
+    "id": "news-3",
+    "slug": "ahmed-khan-captain-of-the-year",
+    "title": "Ahmed Khan Named Captain of the Year",
+    "category": "Awards",
+    "tags": ["ahmed khan", "captain", "award", "leadership", "achievement"],
+    "date_published": "2025-10-18T00:00:00Z",
+    "author": {
+      "name": "Cricket News",
+      "role": "Sports Journalist"
+    },
+    "excerpt": "Our captain receives prestigious award for outstanding leadership and performance throughout the season, leading the team to multiple victories.",
+    "seo_title": "Ahmed Khan Named Captain of the Year — Ace Cricket Club",
+    "meta_description": "Ahmed Khan wins prestigious Captain of the Year award for exceptional leadership and performance, guiding Ace Cricket Club to multiple victories this season.",
+    "canonical_url": "https://YOUR_DOMAIN/ace-cricket-club/news/ahmed-khan-captain-of-the-year",
+    "image": "/assets/news/captain-of-year.webp",
+    "image_alt": "Ahmed Khan receiving the Captain of the Year award trophy at the ceremony.",
+    "featured": false,
+    "reading_time_minutes": 2,
+    "word_count": 296,
+    "related_slugs": ["ace-cricket-club-wins-regional-championship", "record-partnership-hassan-usman", "pre-season-training-camp-announced"],
+    "content_blocks": [
+      {
+        "type": "p",
+        "text": "Our captain receives prestigious award for outstanding leadership and performance throughout the season, leading the team to multiple victories."
+      },
+      {
+        "type": "p",
+        "text": "Ahmed Khan has been honored with the Captain of the Year award at the Regional Cricket Association's annual ceremony, recognizing his exceptional leadership both on and off the field. Under his captaincy, Ace Cricket Club achieved an impressive winning record of 18 victories in 24 matches this season, including the recent regional championship triumph. Khan's strategic acumen, motivational skills, and ability to perform under pressure distinguished him from other nominees."
+      },
+      {
+        "type": "blockquote",
+        "text": "This award is a reflection of the trust and effort put in by every member of our squad. Leadership is not just about making decisions but about empowering everyone to contribute their best. I'm grateful to my teammates and coaching staff for their unwavering support."
+      },
+      {
+        "type": "p",
+        "text": "Throughout the season, Khan demonstrated remarkable consistency with both bat and ball, accumulating over 1,200 runs and maintaining an impressive average above 55. His tactical decisions during crucial matches, particularly in the championship final where his field placements and bowling changes proved decisive, showcased his maturity as a leader. The award committee specifically cited his ability to nurture young talent and maintain team cohesion during challenging periods."
+      },
+      {
+        "type": "p",
+        "text": "This recognition adds to Khan's growing list of accolades and reinforces Ace Cricket Club's reputation for developing exceptional cricketing talent. The award ceremony, attended by cricket dignitaries and former players, celebrated his contributions to the sport and his role in elevating the club's performance standards. Khan becomes the third captain in club history to receive this prestigious honor."
+      }
+    ]
+  },
+  {
+    "id": "news-4",
+    "slug": "youth-academy-registration-open",
+    "title": "Youth Academy Registration Now Open",
+    "category": "Academy",
+    "tags": ["youth academy", "registration", "junior cricket", "coaching", "development"],
+    "date_published": "2025-10-15T00:00:00Z",
+    "author": {
+      "name": "Admin",
+      "role": "Administrator"
+    },
+    "excerpt": "Join our renowned youth academy program designed to nurture young talent. Applications open for aspiring cricketers aged 10-16 years.",
+    "seo_title": "Youth Academy Registration Now Open — Ace Cricket Club",
+    "meta_description": "Ace Cricket Club Youth Academy now accepting applications for aspiring young cricketers aged 10-16. Professional coaching and world-class facilities await.",
+    "canonical_url": "https://YOUR_DOMAIN/ace-cricket-club/news/youth-academy-registration-open",
+    "image": "/assets/news/youth-academy.webp",
+    "image_alt": "Young cricketers training at Ace Cricket Club Youth Academy.",
+    "featured": false,
+    "reading_time_minutes": 2,
+    "word_count": 334,
+    "related_slugs": ["new-training-facility-iqbal-stadium", "community-outreach-program-success", "pre-season-training-camp-announced"],
+    "content_blocks": [
+      {
+        "type": "p",
+        "text": "Join our renowned youth academy program designed to nurture young talent. Applications open for aspiring cricketers aged 10-16 years."
+      },
+      {
+        "type": "p",
+        "text": "Ace Cricket Club is proud to announce that registration for our prestigious Youth Academy program is now open for the upcoming season. The academy has built a reputation for developing talented young cricketers into skilled athletes through comprehensive training programs, expert coaching, and access to state-of-the-art facilities. We welcome applications from aspiring cricketers aged 10 to 16 years who demonstrate passion, commitment, and potential for the sport."
+      },
+      {
+        "type": "h2",
+        "text": "Program Highlights"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Professional coaching from certified instructors with international experience",
+          "Access to the new training facility at Iqbal Stadium with advanced equipment",
+          "Structured curriculum covering batting, bowling, fielding, and fitness",
+          "Regular competitive matches and tournament participation",
+          "Mental conditioning and sports psychology sessions"
+        ]
+      },
+      {
+        "type": "blockquote",
+        "text": "Our academy focuses on holistic development, combining technical skills with character building. We've seen numerous academy graduates progress to represent regional and national teams, and we're committed to continuing that legacy."
+      },
+      {
+        "type": "p",
+        "text": "The program runs throughout the year with sessions held four times per week, including weekend training camps. Academy Director Rashid Ahmed, who has over 20 years of coaching experience, will oversee the curriculum along with a dedicated team of specialized coaches. The academy maintains a favorable coach-to-student ratio of 1:8 to ensure personalized attention for each participant."
+      },
+      {
+        "type": "p",
+        "text": "Registration closes on November 30, 2025, with selections to be announced by mid-December. Interested families are encouraged to attend our open house sessions scheduled for the coming weekends, where they can tour the facilities, meet the coaching staff, and learn more about the program structure and fee details."
+      }
+    ],
+    "cta": {
+      "text": "Apply Now",
+      "url": "https://YOUR_DOMAIN/ace-cricket-club/academy/apply"
+    }
+  },
+  {
+    "id": "news-5",
+    "slug": "record-partnership-hassan-usman",
+    "title": "Record Partnership by Hassan and Usman",
+    "category": "Match Highlights",
+    "tags": ["record", "partnership", "hassan ali", "usman shah", "t20", "multan sultans"],
+    "date_published": "2025-10-12T00:00:00Z",
+    "author": {
+      "name": "Match Reporter",
+      "role": "Sports Reporter"
+    },
+    "excerpt": "Hassan Ali and Usman Shah create history with a record-breaking 250-run partnership in the recent T20 match against Multan Sultans.",
+    "seo_title": "Record Partnership by Hassan and Usman — Ace Cricket Club",
+    "meta_description": "Hassan Ali and Usman Shah make history with spectacular 250-run partnership in T20 match against Multan Sultans, setting new club and regional records.",
+    "canonical_url": "https://YOUR_DOMAIN/ace-cricket-club/news/record-partnership-hassan-usman",
+    "image": "/assets/news/partnership.webp",
+    "image_alt": "Hassan Ali and Usman Shah celebrating their record-breaking partnership during the match.",
+    "featured": false,
+    "reading_time_minutes": 2,
+    "word_count": 312,
+    "related_slugs": ["ace-cricket-club-wins-regional-championship", "ahmed-khan-captain-of-the-year", "pre-season-training-camp-announced"],
+    "content_blocks": [
+      {
+        "type": "p",
+        "text": "Hassan Ali and Usman Shah create history with a record-breaking 250-run partnership in the recent T20 match against Multan Sultans."
+      },
+      {
+        "type": "p",
+        "text": "In an extraordinary display of batting prowess, Hassan Ali and Usman Shah shattered multiple records with their phenomenal 250-run partnership for the third wicket against Multan Sultans. The partnership, which came off just 98 deliveries, represents the highest partnership in both club history and regional T20 cricket. Hassan Ali remained unbeaten on 142 runs from 67 balls, while Usman Shah contributed a magnificent 108 runs from 52 deliveries, combining aggressive strokeplay with intelligent cricket throughout their stand."
+      },
+      {
+        "type": "blockquote",
+        "text": "Everything clicked for us today. We communicated well between wickets, backed each other's strengths, and maintained positive intent throughout. This partnership shows what's possible when two batsmen are in sync."
+      },
+      {
+        "type": "p",
+        "text": "The duo came together when Ace Cricket Club was struggling at 45 for 2 in the sixth over, chasing a target of 215 runs. What followed was a masterclass in T20 batting, featuring 31 boundaries and 19 sixes between them. Hassan Ali particularly dominated the leg-side boundaries, while Usman Shah's innovative stroke-making through the off-side kept the bowlers guessing. Their understanding and running between the wickets was exemplary, converting numerous singles into doubles and maintaining a run rate above 15 throughout their partnership."
+      },
+      {
+        "type": "p",
+        "text": "The previous club record of 187 runs, set in 2017, was surpassed in the 16th over as the pair accelerated toward an emphatic victory. Ace Cricket Club eventually reached their target with 11 balls to spare, finishing at 298 for 3. This remarkable performance has drawn praise from cricket analysts and former players across the region, cementing both batsmen's reputations as match-winners capable of extraordinary feats under pressure."
+      }
+    ]
+  },
+  {
+    "id": "news-6",
+    "slug": "pre-season-training-camp-announced",
+    "title": "Pre-Season Training Camp Announced",
+    "category": "Training",
+    "tags": ["pre-season", "training camp", "fitness", "preparation", "tournament"],
+    "date_published": "2025-10-10T00:00:00Z",
+    "author": {
+      "name": "Coaching Staff",
+      "role": "Head Coach"
+    },
+    "excerpt": "Intensive training camp scheduled for next month to prepare players for the upcoming tournament season with focus on fitness and strategy.",
+    "seo_title": "Pre-Season Training Camp Announced — Ace Cricket Club",
+    "meta_description": "Ace Cricket Club announces intensive pre-season training camp for November, focusing on fitness, strategy, and skills development ahead of tournament season.",
+    "canonical_url": "https://YOUR_DOMAIN/ace-cricket-club/news/pre-season-training-camp-announced",
+    "image": "/assets/news/pre-session-training.webp",
+    "image_alt": "Players training intensively during a practice session at Ace Cricket Club.",
+    "featured": false,
+    "reading_time_minutes": 2,
+    "word_count": 305,
+    "related_slugs": ["new-training-facility-iqbal-stadium", "ace-cricket-club-wins-regional-championship", "youth-academy-registration-open"],
+    "content_blocks": [
+      {
+        "type": "p",
+        "text": "Intensive training camp scheduled for next month to prepare players for the upcoming tournament season with focus on fitness and strategy."
+      },
+      {
+        "type": "p",
+        "text": "Ace Cricket Club has announced a comprehensive three-week pre-season training camp beginning November 5, 2025, designed to prepare the squad for the challenging tournament schedule ahead. The camp will utilize the club's new training facility at Iqbal Stadium and will incorporate modern training methodologies combining physical conditioning, tactical preparation, technical skill refinement, and mental resilience building. All senior team players are required to attend, with select youth academy members receiving invitations to train alongside the first team."
+      },
+      {
+        "type": "h2",
+        "text": "Training Schedule Overview"
+      },
+      {
+        "type": "p",
+        "text": "Daily sessions will run from early morning through evening, structured in three phases. Morning sessions focus on fitness and conditioning including strength training, cardiovascular work, and flexibility exercises. Afternoon periods are dedicated to technical skills with specialized coaching for batting, bowling, and fielding. Evening sessions emphasize match simulations, tactical discussions, and video analysis of opposition teams."
+      },
+      {
+        "type": "blockquote",
+        "text": "This pre-season camp is crucial for building the foundation of our championship defense. We're implementing new training protocols based on sports science research, and every player will receive personalized development plans tailored to their specific needs and roles within the team."
+      },
+      {
+        "type": "p",
+        "text": "The coaching staff has designed the program in consultation with sports scientists and physiotherapists to optimize player performance while minimizing injury risks. Guest coaches with international experience will conduct specialized workshops on advanced batting techniques and bowling strategies. The camp concludes with a three-day practice match tournament allowing players to apply their training in competitive scenarios before the season officially begins in early December."
+      }
+    ]
+  },
+  {
+    "id": "news-7",
+    "slug": "community-outreach-program-success",
+    "title": "Community Outreach Program Success",
+    "category": "Community",
+    "tags": ["community", "outreach", "youth development", "coaching", "social responsibility"],
+    "date_published": "2025-10-08T00:00:00Z",
+    "author": {
+      "name": "Community Relations",
+      "role": "Community Manager"
+    },
+    "excerpt": "Our recent cricket coaching program for underprivileged children sees overwhelming response with over 200 participants from local communities.",
+    "seo_title": "Community Outreach Program Success — Ace Cricket Club",
+    "meta_description": "Ace Cricket Club's community coaching program for underprivileged children achieves remarkable success with over 200 participants and lasting impact.",
+    "canonical_url": "https://YOUR_DOMAIN/ace-cricket-club/news/community-outreach-program-success",
+    "image": "/assets/news/community.webp",
+    "image_alt": "Young children from local communities receiving cricket coaching during the outreach program.",
+    "featured": false,
+    "reading_time_minutes": 2,
+    "word_count": 328,
+    "related_slugs": ["youth-academy-registration-open", "new-training-facility-iqbal-stadium", "ahmed-khan-captain-of-the-year"],
+    "content_blocks": [
+      {
+        "type": "p",
+        "text": "Our recent cricket coaching program for underprivileged children sees overwhelming response with over 200 participants from local communities."
+      },
+      {
+        "type": "p",
+        "text": "Ace Cricket Club's community outreach initiative has achieved remarkable success, providing free cricket coaching and equipment to children from economically disadvantaged backgrounds across the region. The six-week program, which concluded last week, attracted over 200 participants aged 8 to 15 years from twelve different communities. Senior team players and coaching staff volunteered their time to conduct training sessions twice weekly, teaching fundamental cricket skills while emphasizing values of teamwork, discipline, and sportsmanship."
+      },
+      {
+        "type": "blockquote",
+        "text": "Seeing the joy and enthusiasm in these children's eyes reminds us why we love this sport. Cricket has the power to unite communities and provide opportunities. Many of these kids showed natural talent, and we're committed to supporting their development journey."
+      },
+      {
+        "type": "p",
+        "text": "The program provided each participant with a complete cricket kit including bat, ball, protective gear, and playing uniform, removing financial barriers that often prevent talented youngsters from pursuing the sport. Beyond technical training, the initiative incorporated life skills workshops covering nutrition, education importance, and goal-setting. Captain Ahmed Khan and several first-team players made regular appearances, inspiring participants through motivational talks and demonstration sessions that left lasting impressions on the young cricketers."
+      },
+      {
+        "type": "p",
+        "text": "The outreach program's success has prompted club management to establish this as an annual initiative, with plans to expand to additional communities next year. Five standout participants have been offered scholarships to join the Ace Cricket Club Youth Academy, where they will receive advanced training and development opportunities. Local community leaders praised the club's commitment to social responsibility, noting the positive impact on neighborhood youth engagement and the program's role in promoting healthy recreational activities. Documentation of the program's outcomes will serve as a model for similar initiatives by other sports organizations in the region."
+      }
+    ]
+  }
+]
