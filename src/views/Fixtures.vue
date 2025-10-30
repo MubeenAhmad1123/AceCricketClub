@@ -77,7 +77,7 @@
                   <div class="w-16 h-16 rounded-lg overflow-hidden mb-3 border-2 border-gray-700 flex-shrink-0">
                    <img 
                       v-if="fixture.homeFlag" 
-                      :src="fixture.homeFlag" 
+                      :src="getTeamFlag(fixture.homeFlag)" 
                       :alt="`${fixture.homeTeam} flag`"
                       class="w-full h-full object-cover"
                     />
@@ -116,7 +116,7 @@
                   <div class="w-16 h-16 rounded-lg overflow-hidden mb-3 border-2 border-gray-700 flex-shrink-0">
                     <img 
                       v-if="fixture.awayFlag" 
-                      :src="fixture.awayFlag" 
+                      :src="getTeamFlag(fixture.awayFlag)" 
                       :alt="`${fixture.awayTeam} flag`"
                       class="w-full h-full object-cover"
                     />
@@ -400,12 +400,34 @@
 import { ref, computed } from 'vue'
 import fixturesData from '../data/fixtures.json'
 
+// Import all team flag images
+import aceFlag from '@/assets/ace.webp'
+import faisalabadFlag from '@/assets/faislabad.webp'
+import punjabFlag from '@/assets/punjab.webp'
+import multanFlag from '@/assets/multan.webp'
+import karachiFlag from '@/assets/karachi.webp'
+import islamabadFlag from '@/assets/islambad.webp'
+import peshawarFlag from '@/assets/peshawar.webp'
+import royalFlag from '@/assets/royal.webp'
+
 export default {
   name: 'Fixtures',
   setup() {
     const fixtures = ref(fixturesData)
     const filterStatus = ref('all')
     const selectedMatch = ref(null)
+
+    // Map of flag identifiers to imported images
+    const flagMap = {
+      'ace': aceFlag,
+      'faislabad': faisalabadFlag,
+      'punjab': punjabFlag,
+      'multan': multanFlag,
+      'karachi': karachiFlag,
+      'islambad': islamabadFlag,
+      'peshawar': peshawarFlag,
+      'royal': royalFlag
+    }
 
     const filteredFixtures = computed(() => {
       if (filterStatus.value === 'all') {
@@ -424,6 +446,15 @@ export default {
       })
     }
 
+    const getTeamFlag = (flagIdentifier) => {
+      // Extract the flag name from the identifier (e.g., "ace" from any format)
+      if (!flagIdentifier) return null
+      
+      // Get the filename from the path
+      const fileName = flagIdentifier.split('/').pop().replace('.webp', '')
+      return flagMap[fileName] || null
+    }
+
     const openMatchDetails = (fixture) => {
       selectedMatch.value = fixture
     }
@@ -438,6 +469,7 @@ export default {
       selectedMatch,
       filteredFixtures,
       formatDate,
+      getTeamFlag,
       openMatchDetails,
       closeModal
     }

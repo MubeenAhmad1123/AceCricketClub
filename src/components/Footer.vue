@@ -295,8 +295,8 @@
                 </router-link>
               </li>
               <li>
-                <a
-                  href="/#Sponsors"
+               <router-link
+                    to="/partners"
                   @click="scrollToSection('Sponsors')"
                   class="group inline-flex items-center text-gray-400 hover:text-red-500 transition-colors duration-200 no-underline"
                 >
@@ -304,7 +304,7 @@
                     class="w-1.5 h-1.5 bg-red-500 rounded-full mr-3 transform group-hover:scale-150 transition-transform"
                   ></span>
                   <span class="no-underline">Sponsors</span>
-                </a>
+              </router-link>
               </li>
               <li>
                 <router-link
