@@ -11,7 +11,7 @@
     >
       <img
         v-if="player.image"
-        :src="player.image"
+        :src="getImageUrl(player.image)"
         :alt="player.name"
         class="w-full h-full object-cover object-center transition-transform duration-500 hover:scale-105"
       />
@@ -83,6 +83,11 @@ defineProps({
     required: true
   }
 })
+
+// Function to dynamically import images
+const getImageUrl = (imageName) => {
+  return new URL(`../assets/${imageName}`, import.meta.url).href
+}
 </script>
 
 <style scoped>

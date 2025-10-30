@@ -12,7 +12,7 @@
     "runs": 4520,
     "wickets": 89,
     "average": "42.5",
-    "image": "/src/assets/ahmad_result.webp"
+    "image": "ahmad_result.webp"
   },
   {
     "id": 2,
@@ -26,7 +26,7 @@
     "matches": 98,
     "wickets": 156,
     "average": "22.3",
-    "image": "/src/assets/hassan_result.webp"
+    "image": "hassan_result.webp"
   },
   {
     "id": 3,
@@ -39,7 +39,7 @@
     "matches": 112,
     "runs": 5240,
     "average": "48.7",
-    "image": "/src/assets/usman_result.webp"
+    "image": "usman_result.webp"
   },
   {
     "id": 4,
@@ -52,7 +52,7 @@
     "matches": 87,
     "runs": 2890,
     "average": "35.6",
-    "image": "/src/assets/bilal_result.webp"
+    "image": "bilal_result.webp"
   },
   {
     "id": 5,
@@ -66,7 +66,7 @@
     "matches": 134,
     "wickets": 178,
     "average": "25.8",
-    "image": "/src/assets/faisal_result.webp"
+    "image": "faisal_result.webp"
   },
   {
     "id": 6,
@@ -79,7 +79,7 @@
     "matches": 103,
     "runs": 3670,
     "average": "39.2",
-    "image": "/src/assets/imran_result.webp"
+    "image": "imran_result.webp"
   },
   {
     "id": 7,
@@ -94,7 +94,7 @@
     "runs": 2940,
     "wickets": 67,
     "average": "36.8",
-    "image": "/src/assets/kashif_result.webp"
+    "image": "kashif_result.webp"
   },
   {
     "id": 8,
@@ -108,9 +108,8 @@
     "matches": 56,
     "wickets": 89,
     "average": "24.1",
-    "image": "/src/assets/tariq_result.webp"
+    "image": "tariq_result.webp"
   },
-  
   {
     "id": 9,
     "name": "Saim Ayub",
@@ -124,7 +123,7 @@
     "runs": 2150,
     "wickets": 95,
     "average": "32.4",
-    "image": "/src/assets/saim-t.webp"
+    "image": "saim-t.webp"
   },
   {
     "id": 10,
@@ -137,9 +136,8 @@
     "matches": 95,
     "runs": 4120,
     "average": "44.8",
-    "image": "/src/assets/azam-t.webp"
+    "image": "azam-t.webp"
   },
-  
   {
     "id": 11,
     "name": "Amir Hussain",
@@ -152,7 +150,7 @@
     "matches": 119,
     "wickets": 145,
     "average": "27.2",
-    "image": "/src/assets/amir-t.webp"
+    "image": "amir-t.webp"
   },
   {
     "id": 12,
@@ -167,7 +165,7 @@
     "runs": 2680,
     "wickets": 78,
     "average": "35.7",
-    "image": "/src/assets/farhan-t.webp"
+    "image": "farhan-t.webp"
   },
   {
     "id": 13,
@@ -180,7 +178,7 @@
     "matches": 67,
     "runs": 3450,
     "average": "52.3",
-    "image": "/src/assets/aqib-t.webp"
+    "image": "aqib-t.webp"
   },
   {
     "id": 14,
@@ -195,7 +193,7 @@
     "runs": 4890,
     "wickets": 52,
     "average": "41.6",
-    "image": "/src/assets/david-t.webp"
+    "image": "david-t.webp"
   },
   {
     "id": 15,
@@ -209,7 +207,7 @@
     "matches": 45,
     "wickets": 72,
     "average": "23.8",
-    "image": "/src/assets/amant-t.webp"
+    "image": "amant-t.webp"
   },
   {
     "id": 16,
@@ -224,6 +222,6 @@
     "runs": 3320,
     "wickets": 84,
     "average": "38.9",
-    "image": "/src/assets/rizwan.webp"
+    "image": "rizwan.webp"
   }
 ]
