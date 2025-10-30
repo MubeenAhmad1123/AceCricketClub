@@ -1,7 +1,6 @@
 // src/router/index.js
 import { createRouter, createWebHistory } from 'vue-router';
 
-
 // Lazy-load views for better initial performance
 const Home = () => import("../views/Home.vue");
 const Team = () => import("../views/Team.vue");
@@ -13,7 +12,7 @@ const Facilities = () => import("../views/Facilities.vue");
 const SuccessStories = () => import("../views/Testimonials.vue");
 const Coaches = () => import("../views/Coaches.vue");
 const Programs = () => import("../views/program.vue");
-const Partner = () => import("../views/partner.vue");
+const PartnersView = () => import("../views/partner.vue"); // renamed to avoid duplicate identifier
 
 const routes = [
   { 
@@ -31,13 +30,13 @@ const routes = [
   { 
     path: "/programs", 
     name: "Programs", 
-    component: Programs, // Fixed: was pointing to Team component
+    component: Programs,
     meta: { title: "Programs — Ace Cricket Club" }
   },
   { 
     path: "/partners", 
     name: "PartnersSection", 
-    component: Partner, // Fixed: was pointing to Team component
+    component: PartnersView,
     meta: { title: "Sponsors — Ace Cricket Club" }
   },
   { 
