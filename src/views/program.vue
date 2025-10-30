@@ -111,16 +111,16 @@
 
             <!-- CTA Button -->
             <router-link
-            to="/contact"
+              to="/contact"
               :class="[
-                'w-full py-3 px-6 rounded-lg font-semibold transition-all duration-300',
+                'block text-center w-full py-3 px-6 rounded-lg font-semibold transition-all duration-300',
                 activeProgram === program.id
                   ? 'bg-red-600 text-white hover:bg-red-700 shadow-md hover:shadow-lg'
                   : 'bg-gray-900 text-white hover:bg-black shadow-md hover:shadow-lg'
               ]"
             >
               Enroll Now
-             </router-link>
+            </router-link>
           </div>
         </div>
       </div>
@@ -134,7 +134,8 @@
           <p class="text-red-100 text-lg mb-8">
             Book a free consultation with our coaching staff.
           </p>
-          <router-link
+          
+         <router-link
             to="/contact"
              href="https://calendly.com/mubeenahma1123/30min"
                 target="_blank"
@@ -148,6 +149,11 @@
 </template>
 
 <script>
+// Import images
+import userImage from '../assets/user.webp'
+import targetImage from '../assets/target.webp'
+import trophyImage from '../assets/trophy.webp'
+
 export default {
   name: 'Programs',
   data() {
@@ -161,7 +167,7 @@ export default {
           level: "Beginner",
           price: "$99",
           popular: false,
-          image: new URL('@/assets/user.webp', import.meta.url).href,
+          image: userImage,
           features: [
             "Basic cricket fundamentals",
             "Fun learning environment",
@@ -177,7 +183,7 @@ export default {
           level: "Intermediate",
           price: "$149",
           popular: true,
-          image: new URL('@/assets/target.webp', import.meta.url).href,
+          image: targetImage,
           features: [
             "Advanced technique training",
             "Match strategies & tactics",
@@ -193,7 +199,7 @@ export default {
           level: "Advanced",
           price: "$249",
           popular: false,
-          image: new URL('@/assets/trophy.webp', import.meta.url).href,
+          image: trophyImage,
           features: [
             "Professional-level training",
             "Video analysis & feedback",
@@ -209,7 +215,7 @@ export default {
           level: "All Levels",
           price: "$79",
           popular: false,
-          image: new URL('@/assets/user.webp', import.meta.url).href,
+          image: userImage,
           features: [
             "Flexible weekend sessions",
             "Skill maintenance",

@@ -181,7 +181,7 @@
             <!-- Main Image -->
             <div class="rounded-2xl h-80 md:h-96 overflow-hidden shadow-2xl transform hover:rotate-2 transition-transform duration-500">
               <img 
-                src="/src/assets/main.png" 
+                src="/src/assets/main.webp" 
                 alt="Ace Cricket Club" 
                 class="w-full h-full object-cover"
               />
@@ -189,7 +189,7 @@
             <!-- Bottom Right Image Badge -->
             <div class="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 bg-slate-900 rounded-2xl w-40 h-40 md:w-48 md:h-48 overflow-hidden shadow-xl transform hover:-rotate-3 transition-transform duration-500">
               <img 
-                src="/src/assets/badge.png" 
+                src="/src/assets/badge.webp" 
                 alt="15+ Years of Excellence" 
                 class="w-full h-full object-cover opacity-30"
               />
@@ -630,43 +630,10 @@
     
     <!-- Testimonials -->
     <Testimonials />
+    <Partner />
     
-    <!-- Sponsors & Partners -->
-    <section class="bg-white py-20" id="Sponsors">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-16">
-          <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
-            Our Partners
-          </h2>
-          <p class="text-gray-600 text-base md:text-lg">
-            Proud to be supported by leading brands
-          </p>
-        </div>
 
-        <!-- Partners Carousel -->
-        <div class="relative w-full overflow-hidden py-10">
-          <div class="flex gap-12 md:gap-16 w-fit animate-partners-scroll hover:pause-animation">
-            <div 
-              v-for="(partner, index) in duplicatedPartners" 
-              :key="index"
-              class="flex-shrink-0 w-40 h-24 sm:w-44 sm:h-28 md:w-56 md:h-36 bg-gray-50 rounded-2xl p-6 md:p-8 flex items-center justify-center transition-all duration-300 hover:bg-white hover:shadow-xl hover:-translate-y-1"
-            >
-              <img
-                :src="partner.logo"
-                :alt="partner.name"
-                class="max-w-full max-h-12 sm:max-h-14 md:max-h-20 w-auto h-auto object-contain grayscale opacity-70 transition-all duration-300 hover:grayscale-0 hover:opacity-100"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          
-          <!-- Fade edges -->
-          <div class="absolute inset-y-0 left-0 w-20 md:w-32 bg-gradient-to-r from-white to-transparent pointer-events-none z-10"></div>
-          <div class="absolute inset-y-0 right-0 w-20 md:w-32 bg-gradient-to-l from-white to-transparent pointer-events-none z-10"></div>
-        </div>
-      </div>
-    </section>
-      
+
     <!-- Call to Action -->
     <section class="bg-gradient-to-r from-red-500 to-red-600 py-20">
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
@@ -703,53 +670,16 @@ import fixturesData from '@/data/fixtures.json'
 import regionalChampionship from '@/assets/regional-championship.webp'
 import newFacility from '@/assets/new-facility.webp'
 import captainOfYear from '@/assets/captain-of-year.webp'
+
 import { ref, onMounted, onUnmounted, computed } from 'vue';
+import Partner from './Partner.vue'
 
 const featuredPlayers = ref(playersData.slice(0, 3))
 const upcomingFixtures = ref(fixturesData.filter(f => f.status === 'upcoming').slice(0, 2))
 
-const partners = [
-  {
-    id: 1,
-    name: "Partner 1",
-    logo: "/src/assets/brand1.webp"
-  },
-  {
-    id: 2,
-    name: "Partner 2",
-    logo: "/src/assets/brand2.webp"
-  },
-  {
-    id: 3,
-    name: "Partner 3",
-    logo: "/src/assets/brand3.webp"
-  },
-  {
-    id: 4,
-    name: "Partner 4",
-    logo: "/src/assets/brand4.webp"
-  },
-  {
-    id: 5,
-    name: "Partner 5",
-    logo: "/src/assets/brand5.webp"
-  },
-  {
-    id: 6,
-    name: "Partner 6",
-    logo: "/src/assets/brand6.webp"
-  },
-  {
-    id: 7,
-    name: "Partner 7",
-    logo: "/src/assets/brand7.webp"
-  }
-]
 
-const duplicatedPartners = computed(() => {
-  // Duplicate partners 3 times for seamless infinite scroll
-  return [...partners, ...partners, ...partners]
-})
+
+
 
 const toast = ref({ show: false, message: '', type: '' });
 const reminders = ref({});
@@ -922,33 +852,6 @@ const sendNotification = (title, body) => {
   animation-fill-mode: both;
 }
 
-/* Partners Carousel Animation */
-@keyframes partners-scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-33.333%);
-  }
-}
-
-.animate-partners-scroll {
-  animation: partners-scroll 15s linear infinite;
-}
-
-.hover\:pause-animation:hover {
-  animation-play-state: paused;
-}
-
-.grayscale {
-  filter: grayscale(100%);
-  opacity: 0.7;
-}
-
-.grayscale:hover {
-  filter: grayscale(0%);
-  opacity: 1;
-}
 
 /* Toast Animation */
 .slide-fade-enter-active {

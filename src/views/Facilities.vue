@@ -142,7 +142,7 @@
 
           <div class="relative min-h-[400px] md:min-h-0">
             <img 
-              src="/src/assets/facility-tour.webp" 
+              :src="facilityTourImage" 
               alt="Facility Tour" 
               class="absolute inset-0 w-full h-full object-cover"
             >
@@ -154,17 +154,33 @@
 </template>
 
 <script>
+// Import all images at the top
+import indoorNets from '../assets/indoor-nets.jpg'
+import outdoorGround from '../assets/outdoor-ground.webp'
+import bowlingMachine from '../assets/bowling macine.webp'
+import videoAnalysis from '../assets/video-analysis.webp'
+import fitnessCenter from '../assets/fitness-center.webp'
+import playerLounge from '../assets/player-loung.webp'
+import trainingSession from '../assets/training-session.webp'
+import bowlingPractice from '../assets/bowling-practice.webp'
+import matchDay from '../assets/match-day.webp'
+import fitnessTraining from '../assets/fitness-training.webp'
+import teamBuilding from '../assets/team-building.webp'
+import coachFeedback from '../assets/coach-feedback.webp'
+import facilityTour from '../assets/facility-tour.webp'
+
 export default {
   name: 'FacilitiesSection',
   data() {
     return {
+      facilityTourImage: facilityTour,
       facilities: [
         {
           id: 1,
           emoji: '🎯',
           title: 'Indoor Training Nets',
           description: 'Climate-controlled facility with 4 professional cricket nets, allowing year-round training regardless of weather conditions.',
-          image: '/src/assets/indoor-nets.jpg',
+          image: indoorNets,
           bgClass: 'bg-gradient-to-br from-red-50 to-red-100',
           borderClass: 'border-red-200',
           iconBgClass: 'bg-red-500'
@@ -174,7 +190,7 @@ export default {
           emoji: '🏟️',
           title: 'Outdoor Practice Ground',
           description: 'Full-size cricket ground with professionally maintained pitch and outfield, perfect for match simulation and practice.',
-          image: '/src/assets/outdoor-ground.webp',
+          image: outdoorGround,
           bgClass: 'bg-gradient-to-br from-blue-50 to-blue-100',
           borderClass: 'border-blue-200',
           iconBgClass: 'bg-blue-500'
@@ -184,7 +200,7 @@ export default {
           emoji: '🎰',
           title: 'Bowling Machines',
           description: 'State-of-the-art automated bowling machines with adjustable speed, spin, and trajectory for batting practice.',
-          image: '/src/assets/bowling macine.webp',
+          image: bowlingMachine,
           bgClass: 'bg-gradient-to-br from-green-50 to-green-100',
           borderClass: 'border-green-200',
           iconBgClass: 'bg-green-500'
@@ -194,7 +210,7 @@ export default {
           emoji: '📹',
           title: 'Video Analysis Lab',
           description: 'High-speed cameras and analysis software to review and improve your technique with frame-by-frame feedback.',
-          image: '/src/assets/video-analysis.webp',
+          image: videoAnalysis,
           bgClass: 'bg-gradient-to-br from-purple-50 to-purple-100',
           borderClass: 'border-purple-200',
           iconBgClass: 'bg-purple-500'
@@ -204,7 +220,7 @@ export default {
           emoji: '💪',
           title: 'Fitness Center',
           description: 'Dedicated gym with cricket-specific equipment for strength, conditioning, and injury prevention programs.',
-          image: '/src/assets/fitness-center.webp',
+          image: fitnessCenter,
           bgClass: 'bg-gradient-to-br from-orange-50 to-orange-100',
           borderClass: 'border-orange-200',
           iconBgClass: 'bg-orange-500'
@@ -214,7 +230,7 @@ export default {
           emoji: '🛋️',
           title: 'Player Lounge',
           description: 'Comfortable space for students to relax, review match footage, and discuss strategy with coaches and teammates.',
-          image: '/src/assets/player-loung.webp',
+          image: playerLounge,
           bgClass: 'bg-gradient-to-br from-teal-50 to-teal-100',
           borderClass: 'border-teal-200',
           iconBgClass: 'bg-teal-500'
@@ -225,37 +241,37 @@ export default {
           emoji: '🏏',
           title: 'Training Session',
           subtitle: 'Batting techniques',
-          image: '/src/assets/training-session.webp'
+          image: trainingSession
         },
         {
           emoji: '🎯',
           title: 'Bowling Practice',
           subtitle: 'Accuracy & consistency',
-          image: '/src/assets/bowling-practice.webp'
+          image: bowlingPractice
         },
         {
           emoji: '🏆',
           title: 'Match Day',
           subtitle: 'Practice matches',
-          image: '/src/assets/match-day.webp'
+          image: matchDay
         },
         {
           emoji: '💪',
           title: 'Fitness Training',
           subtitle: 'Conditioning sessions',
-          image: '/src/assets/fitness-training.webp'
+          image: fitnessTraining
         },
         {
           emoji: '👥',
           title: 'Team Building',
           subtitle: 'Group activities',
-          image: '/src/assets/team-building.webp'
+          image: teamBuilding
         },
         {
           emoji: '🎓',
           title: 'Coach Feedback',
           subtitle: 'Technical guidance',
-          image: '/src/assets/coach-feedback.webp'
+          image: coachFeedback
         }
       ],
       trainingPrograms: [
@@ -390,22 +406,6 @@ export default {
     transform: translateX(-33.333%);
   }
 }
-
-/* Alternative: Right to Left animation (uncomment to use) */
-/*
-@keyframes scroll-right {
-  0% {
-    transform: translateX(-33.333%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-
-.carousel-track {
-  animation: scroll-right 20s linear infinite;
-}
-*/
 
 /* Responsive adjustments */
 @media (max-width: 768px) {

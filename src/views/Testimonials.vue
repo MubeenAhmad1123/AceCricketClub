@@ -131,6 +131,14 @@
 </template>
 
 <script>
+// Import all testimonial images
+import farhanImage from '@/assets/farhan.webp'
+import saimImage from '@/assets/saim.webp'
+import amantImage from '@/assets/amant.webp'
+import fatimaImage from '@/assets/fatima.webp'
+import azamImage from '@/assets/azam.webp'
+import sidraImage from '@/assets/sidra.webp'
+
 export default {
   name: 'Testimonials',
   data() {
@@ -141,7 +149,7 @@ export default {
           role: "Student Parent",
           quote:
             "My son joined as a complete beginner and within 6 months, he was selected for his school team. The coaches here really know how to bring out the best in young players.",
-          photo: "/src/assets/farhan.webp",
+          photo: farhanImage,
           alt: "Sahibzada Farhan – Parent testimonial, Ace Cricket Club",
         },
         {
@@ -149,7 +157,7 @@ export default {
           role: "Advanced Student",
           quote:
             "The quality of coaching here is exceptional. The personalized attention and professional guidance have helped me refine my technique significantly. I recently scored my first century in a district match!",
-          photo: "/src/assets/saim.webp",
+          photo: saimImage,
           alt: "Saim Ayub – Advanced Student testimonial, Ace Cricket Club",
         },
         {
@@ -157,7 +165,7 @@ export default {
           role: "Student Parent",
           quote:
             "Both my kids train here and the transformation has been incredible. Not just in their cricket skills, but also in their confidence and discipline. Best decision we made for their development.",
-          photo: "/src/assets/amant.webp",
+          photo: amantImage,
           alt: "Amanat Chan – Parent testimonial, Ace Cricket Club",
         },
         {
@@ -165,7 +173,7 @@ export default {
           role: "Intermediate Student",
           quote:
             "As a female cricketer, I was looking for a supportive environment where I could develop my skills. I found exactly that here. The coaches are encouraging and professional. I'm now playing at state level.",
-          photo: "/src/assets/fatima.webp",
+          photo: fatimaImage,
           alt: "Fatima Sana – Intermediate Student testimonial, Ace Cricket Club",
         },
         {
@@ -173,7 +181,7 @@ export default {
           role: "Student Parent",
           quote:
             "The structured programs and professional approach make all the difference. My son's bowling has improved dramatically, and he's now one of the key players in his team. Highly recommended!",
-          photo: "/src/assets/azam.webp",
+          photo: azamImage,
           alt: "Azam Siddique – Parent testimonial, Ace Cricket Club",
         },
         {
@@ -181,7 +189,7 @@ export default {
           role: "Junior Student",
           quote:
             "I started at age 7 and now I'm 12 and playing for my district. The coaches are so nice and they make practice fun while teaching us important skills. I love coming to practice every week!",
-          photo: "/src/assets/sidra.webp",
+          photo: sidraImage,
           alt: "Sidra Ameen – Junior Student testimonial, Ace Cricket Club",
         },
       ],
