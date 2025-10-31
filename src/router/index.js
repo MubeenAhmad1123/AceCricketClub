@@ -12,7 +12,7 @@ const Facilities = () => import("../views/Facilities.vue");
 const SuccessStories = () => import("../views/Testimonials.vue");
 const Coaches = () => import("../views/Coaches.vue");
 const Programs = () => import("../views/program.vue");
-const PartnersView = () => import("../views/partner.vue"); // renamed to avoid duplicate identifier
+const PartnersView = () => import("../views/Partner.vue"); // renamed to avoid duplicate identifier
 
 const routes = [
   { 
