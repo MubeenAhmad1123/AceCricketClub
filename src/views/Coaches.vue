@@ -109,12 +109,12 @@
 
         <!-- CTA Button -->
         <div class="flex justify-center">
-<router-link 
-  to="/contact" 
-  class="inline-block bg-red-600 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-red-700 transition-colors shadow-lg hover:shadow-xl"
->
- Meet Our Coaches
-</router-link>
+          <router-link 
+            to="/contact" 
+            class="inline-block bg-red-600 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-red-700 transition-colors shadow-lg hover:shadow-xl"
+          >
+            Meet Our Coaches
+          </router-link>
         </div>
       </div>
     </div>
@@ -122,13 +122,20 @@
 </template>
 
 <script setup>
+// Import coach images
+import aqibImage from '@/assets/aqib.webp';
+import amirImage from '@/assets/amir.webp';
+import sarahImage from '@/assets/sarah.webp';
+import davidImage from '@/assets/david.webp';
+import userFallback from '@/assets/user.webp';
+
 const coaches = [
   {
     id: 1,
-    name: "Aqib javed",
+    name: "Aqib Javed",
     title: "Head Coach & Director",
     specialization: "Batting & Match Strategy",
-    image: "/src/assets/aqib.webp", // Using placeholder from your assets
+    image: aqibImage,
     credentials: [
       "Former State Level Player",
       "Level 3 Certified Coach",
@@ -142,7 +149,7 @@ const coaches = [
     name: "Amir Khan",
     title: "Senior Bowling Coach",
     specialization: "Pace & Spin Bowling",
-    image: "/src/assets/amir.webp",
+    image: amirImage,
     credentials: [
       "Former National Team Player",
       "ICC Certified Coach",
@@ -156,7 +163,7 @@ const coaches = [
     name: "Sarah Ahmed",
     title: "Youth Development Coach",
     specialization: "Junior Development",
-    image: "/src/assets/sarah.webp",
+    image: sarahImage,
     credentials: [
       "BCCI Level 2 Certified",
       "Child Psychology Degree",
@@ -170,7 +177,7 @@ const coaches = [
     name: "David Martin",
     title: "Fitness & Conditioning Coach",
     specialization: "Strength & Conditioning",
-    image: "/src/assets/david.webp",
+    image: davidImage,
     credentials: [
       "Sports Science Degree",
       "Certified Strength Coach",
@@ -204,10 +211,9 @@ const features = [
   }
 ];
 
-
 const handleImageError = (e) => {
   console.error('Image failed to load:', e.target.src);
-  e.target.src = './assets/user.webp'; // Fallback image
+  e.target.src = userFallback; // Fallback to user.webp image
 };
 </script>
 

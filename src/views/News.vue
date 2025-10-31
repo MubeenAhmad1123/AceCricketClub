@@ -41,9 +41,9 @@
             </div>
             <div class="md:w-1/2 p-8 md:p-12">
               <div class="text-sm text-red-500 font-semibold mb-2">{{ featuredNews.category.toUpperCase() }}</div>
-              <h2 class="text-3xl font-bold text-slate-900 mb-4">
+             <router-link :to="`/news/${featuredNews.slug}`" class="text-3xl font-bold text-slate-900 mb-4">
                 {{ featuredNews.title }}
-              </h2>
+            </router-link>
               <p class="text-gray-600 mb-4">
                 {{ featuredNews.excerpt }}
               </p>
