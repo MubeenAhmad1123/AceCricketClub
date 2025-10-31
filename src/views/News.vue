@@ -41,9 +41,11 @@
             </div>
             <div class="md:w-1/2 p-8 md:p-12">
               <div class="text-sm text-red-500 font-semibold mb-2">{{ featuredNews.category.toUpperCase() }}</div>
-             <router-link :to="`/news/${featuredNews.slug}`" class="text-3xl font-bold text-slate-900 mb-4">
-                {{ featuredNews.title }}
-            </router-link>
+              <router-link :to="`/news/${featuredNews.slug}`">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4 hover:text-red-500 transition-colors cursor-pointer">
+                  {{ featuredNews.title }}
+                </h2>
+              </router-link>
               <p class="text-gray-600 mb-4">
                 {{ featuredNews.excerpt }}
               </p>
@@ -68,13 +70,15 @@
             class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all transform hover:-translate-y-2"
           >
             <!-- Article Image -->
-            <div class="h-48 overflow-hidden">
-              <img 
-                :src="getImagePath(article.image)" 
-                :alt="article.image_alt"
-                class="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
-              />
-            </div>
+            <router-link :to="`/news/${article.slug}`">
+              <div class="h-48 overflow-hidden">
+                <img 
+                  :src="getImagePath(article.image)" 
+                  :alt="article.image_alt"
+                  class="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+                />
+              </div>
+            </router-link>
 
             <!-- Article Content -->
             <div class="p-6">
@@ -84,9 +88,11 @@
                 <span class="text-xs text-gray-500">{{ formatDate(article.date_published) }}</span>
               </div>
               
-              <h3 class="text-xl font-bold text-slate-900 mb-3 hover:text-red-500 transition-colors cursor-pointer">
-                {{ article.title }}
-              </h3>
+              <router-link :to="`/news/${article.slug}`">
+                <h3 class="text-xl font-bold text-slate-900 mb-3 hover:text-red-500 transition-colors cursor-pointer">
+                  {{ article.title }}
+                </h3>
+              </router-link>
               
               <p class="text-gray-600 mb-4 line-clamp-3">
                 {{ article.excerpt }}
