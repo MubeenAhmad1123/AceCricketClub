@@ -1,4 +1,5 @@
 <template>
+   <Analytics />
   <div id="app" class="min-h-screen bg-gray-50 flex flex-col">
     <Navbar />
 
@@ -17,6 +18,7 @@
 <script setup>
 import Navbar from './components/Navbar.vue'
 import Footer from './components/Footer.vue'
+import { Analytics } from "@vercel/analytics/next"  
 </script>
 
 <style>
